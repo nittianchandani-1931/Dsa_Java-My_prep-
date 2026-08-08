@@ -4,7 +4,7 @@ package Pattern;
 public class HollowSquare {
 
     public static void main(String[] args) {
-        int n = 4;
+        int n = 10;
 
         for (int row = 1; row <= n; row++) {
 
