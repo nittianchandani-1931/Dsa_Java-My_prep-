@@ -1,4 +1,5 @@
 public class Bitwiseoperator {
+
     public static void main() {
         // int a = 5;
         // int b = 6;
@@ -53,12 +54,42 @@ public class Bitwiseoperator {
         // System.out.println("Set bit count: " + count);
 
         // For checking power of 2
-        int n = 32;
-        if ((n &(n - 1)) == 0) {
-            System.out.println("The given number is power of 2");
-        } else {
-            System.out.println("The number is not power of 2");
-        }
-    }
+        // int n = 32;
+        // if ((n &(n - 1)) == 0) {
+        // System.out.println("The given number is power of 2");
+        // } else {
+        // System.out.println("The number is not power of 2");
+        // }
 
+        // /// Swapping two number using XOR
+        // int a = 5;
+        // int b = 6;
+        // a = a ^ b;
+        // b = a ^ b;
+        // a = a ^ b;
+        // System.out.println("a=" + a);
+
+        // System.out.println("b=" + b);
+
+        /// Finding unique element from serires of number whwn all numbers gievn twice
+        /// and a single number is uniuqe
+
+        // int[] nums = {10, 24, 17, 24, 10, 13, 17};
+
+        // int ans = 0;
+
+        // for (int i = 0; i < nums.length; i++) {
+        // ans = ans ^ nums[i];
+        // }
+
+        // System.out.println("Unique number = " + ans);
+
+        // Removing last set bit
+        int n = 10;
+        System.out.println(n & (n - 1));
+        // getting last bit
+        int n1 = 10;
+        System.out.println(n & -(n));
+
+    }
 }
