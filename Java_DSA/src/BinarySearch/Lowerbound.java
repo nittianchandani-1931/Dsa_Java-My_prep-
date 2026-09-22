@@ -23,7 +23,7 @@ public class Lowerbound {
 
     static void main() {
         int arr[] = { 10, 20, 30, 30, 30, 30, 30, 30, 40, 50 };
-        int target = 90;
+        int target = 25;
         int ans = getLowerBound(arr, target);
         System.out.println("Ans: " + ans);
     }
